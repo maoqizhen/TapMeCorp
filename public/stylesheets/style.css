@@ -1,0 +1,90 @@
+/* Global Setting */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background: #eee;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif
+}
+
+header, footer {
+	box-sizing: border-box;
+	width: 100%;
+	color: #eee;
+	position: fixed;
+	background: #333;
+}
+
+header {
+	top: 0;
+	height: 10%;
+	text-align: center;
+}
+
+footer {
+	bottom: 0;
+	height: 15%;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+.carousel {
+	position: fixed;
+	top: 10%;
+	width: 100%;
+	height: 40%;
+	background: #606;
+}
+
+.menu {
+	position: fixed;
+	top: 50%;
+	width: 100%;
+	height: 35%;
+}
+.row {
+	width: 100%;
+	height: 50%;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.row:first-child { border-top: none; }
+.row:last-child { border-bottom: none; }
+
+.col {
+	float: left;
+	height: 100%;
+	/*display: table;
+	overflow: hidden;*/
+}
+.menu .col {
+	width: 33.33%;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+footer .col {
+	width: 25%;
+}
+.menu .col:first-child { border-left: none; }
+.menu .col:last-child { border-right: none; }
+
+
+
+/*.icondiv {
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+}
+.icon {
+	vertical-align: middle;
+	width: 50%;
+	height: 50%;
+	display: inline-block;
+	background: #aaa;
+}*/
