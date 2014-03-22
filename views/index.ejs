@@ -17,61 +17,17 @@
             }
     </style>
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-	<script src="/javascripts/slides.min.jquery.js"></script>
-	<script>
-            $(function(){
-               $('#slides').slides({
-			    autoHeight: true,
-				preload: true,
-				preloadImage: 'images/loading.gif',
-				play: 3000,
-				pause: 2500,
-				pagination: false,
-				generatePagination: false,
-				hoverPause: true,
-				animationStart: function(current){
-					$('.caption').animate({
-						bottom:-35
-					},100);
-					if (window.console && console.log) {
-						// example return of current slide number
-						console.log('animationStart on slide: ', current);
-					};
-				},
-				animationComplete: function(current){
-					$('.caption').animate({
-						bottom:0
-					},200);
-					if (window.console && console.log) {
-						// example return of current slide number
-						console.log('animationComplete on slide: ', current);
-					};
-				},
-				slidesLoaded: function() {
-					$('.caption').animate({
-						bottom:0
-					},200);
-				}
-			});
-            });
-        </script>
+	<script type="text/javascript" src="/javascripts/jquery.cycle.all.js"></script>
   </head>
   <body>
     <header></header>
-    <div id="slides" class='carousel'>
-		<div class="slides_container">
-			<div>
-				<img src="images/slide-1.jpg" style="width: 100%;max-height: 100%" alt="Slide 1">
-			</div>
-			<div>
-				<img src="images/slide-2.jpg" style="width: 100%;max-height: 100%" alt="Slide 2">
-			</div>
-			<div>
-				<img src="images/slide-3.jpg" style="width: 100%;max-height: 100%" alt="Slide 3">
-			</div>
-			<div>
-				<img src="images/slide-4.jpg" style="width: 100%;max-height: 100%" alt="Slide 4">
-			</div>
+    <div class='carousel'>
+		<div id="slides" class="slides_container">
+			<div style="background-image: url(images/slide-1.jpg)"></div>
+			<div style="background-image: url(images/slide-2.jpg)"></div>
+			<div style="background-image: url(images/slide-3.jpg)"></div>
+			<div style="background-image: url(images/slide-4.jpg)"></div>
+			
 		</div>
 		
 	</div>
@@ -97,5 +53,10 @@
     	<div class='col'></div>
     	<div class='col'></div>
     </footer>
+    <script type="text/javascript">
+	    $('#slides').cycle({ 
+	        fx: 'scrollLeft' 
+	    });
+    </script>
   </body>
 </html>
