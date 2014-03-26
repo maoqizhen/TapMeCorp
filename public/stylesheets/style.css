@@ -144,5 +144,5 @@ footer .col { width: 33.33%; }
 
 @font-face {
 	font-family: 'STXihei';
-	src: url('/fonts/STXihei.ttf') format('truetype')
+	src: url('/fonts/STXihei.ttf') format('truetype');
 }
