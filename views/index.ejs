@@ -1,62 +1,77 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset='utf-8'>
     <title><%= title %></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no'>
+    <meta name='apple-mobile-web-app-capable' content='yes'>
+    <meta name='description' content=''>
+    <meta name='author' content=''>
     <link rel='stylesheet' href='/stylesheets/style.css' />
-	<style type="text/css" media="screen">
-            .slides_container {
-                width:100%;
-                height:100%;
-            }
-            .slides_container div {
-                width:100%;
-                height:100%;
-                display:block;
-            }
-    </style>
-	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="/javascripts/jquery.cycle.all.js"></script>
   </head>
   <body>
-    <header></header>
-    <div class='carousel'>
-		<div id="slides" class="slides_container">
-			<div style="background-image: url(images/slide-1.jpg)"></div>
-			<div style="background-image: url(images/slide-2.jpg)"></div>
-			<div style="background-image: url(images/slide-3.jpg)"></div>
-			<div style="background-image: url(images/slide-4.jpg)"></div>
-			
-		</div>
-		
-	</div>
-    <div class='menu'>
-    	<div class='row'>
-    		<div class='col'>
-    			<!--<div class='icondiv'>
-    				<div class='icon'></div>
-    			</div>-->
-    		</div>
-    		<div class='col'></div>
-    		<div class='col'></div>
-    	</div>
-    	<div class='row'>
-    		<div class='col'></div>
-    		<div class='col'></div>
-    		<div class='col'></div>
-    	</div>
+    <header>
+      <div class='col'></div>
+    </header>
+    <div class='container'>
+      <div class='page active'>
+        <div class='carousel'>
+          <div class='ad active'></div>
+          <div class='ad next'></div>
+          <div class='ad'></div>
+          <div class='ad'></div>
+          <div class='ad prev'></div>
+        </div>
+        <div class='menu'>
+        	<div class='row'>
+            <div class='col'></div>
+            <div class='col'></div>
+            <div class='col'></div>
+          </div>
+          <div class='row'>
+            <div class='col'></div>
+            <div class='col'></div>
+            <div class='col'></div>
+          </div>
+        </div>
+      </div>
+      <div class='page'></div>
+      <div class='page'></div>
     </div>
     <footer>
-    	<div class='col'></div>
-    	<div class='col'></div>
-    	<div class='col'></div>
-    	<div class='col'></div>
+      <div class='col active'></div>
+      <div class='col'></div>
+      <div class='col'></div>
     </footer>
-    <script type="text/javascript">
-	    $('#slides').cycle({ 
-	        fx: 'scrollLeft' 
-	    });
-    </script>
   </body>
+  <script src='/javascripts/jquery.min.js'></script>
+  <script>
+    !function($) {
+      $('footer>.col').bind('click',function(e) {
+        var ele = $(this)
+          , i = ele.index();
+
+        if(!ele.hasClass('active')){
+          $(this).addClass('active').siblings().removeClass('active');
+          $('.page').eq(i).addClass('active').siblings().removeClass('active');
+          e.preventDefault();
+        }
+      })
+      setInterval(carousel,5000);
+    }(window.jQuery)
+    function carousel() {
+      var active = $('.carousel').find('.active'),
+          prev = active.prev().addClass('prev'),
+          next = active.next().addClass('next');
+      if(active.parents('.page').hasClass('active')) {
+        if(!prev.length>0){ prev = active.siblings().last() };
+        if(!next.length>0){ next = active.siblings().first() };
+
+        prev.removeClass('prev');
+        active.removeClass('active').addClass('prev');
+        next.removeClass('next').addClass('active');
+        if(!next.next().length>0){ active.siblings().first().addClass('next') } else { next.next().addClass('next') };
+      }
+    }
+  </script>
 </html>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="600"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="calendar.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2"
+     inkscape:cx="119.79061"
+     inkscape:cy="360.33241"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1440"
+     inkscape:window-height="809"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-2557.0866)">
+    <g
+       id="g3051">
+      <path
+         id="path3097"
+         transform="translate(0,2557.0866)"
+         d="M 60 90 C 54.46 90 50 94.46 50 100 L 50 380 C 50 385.54 54.46 390 60 390 L 340 390 C 345.54 390 350 385.54 350 380 L 350 100 C 350 94.46 345.54 90 340 90 L 60 90 z M 150 145 L 160 145 L 160 196.34375 C 162.99494 198.07125 165 201.2941 165 205 C 165 210.5228 160.52285 215 155 215 C 149.47715 215 145 210.5228 145 205 C 145 201.2941 147.00506 198.07125 150 196.34375 L 150 145 z M 240 145 L 250 145 L 250 196.34375 C 252.99494 198.07125 255 201.2941 255 205 C 255 210.5228 250.52285 215 245 215 C 239.47715 215 235 210.5228 235 205 C 235 201.2941 237.00506 198.07125 240 196.34375 L 240 145 z M 105 165 L 140 165 L 140 175 L 115 175 L 115 235 L 285 235 L 285 175 L 260 175 L 260 165 L 295 165 L 295 335 L 105 335 L 105 165 z M 170 165 L 230 165 L 230 175 L 170 175 L 170 165 z M 115 245 L 115 280 L 150 280 L 150 245 L 115 245 z M 160 245 L 160 280 L 195 280 L 195 245 L 160 245 z M 205 245 L 205 280 L 240 280 L 240 245 L 205 245 z M 250 245 L 250 280 L 285 280 L 285 245 L 250 245 z M 115 290 L 115 325 L 150 325 L 150 290 L 115 290 z M 160 290 L 160 325 L 195 325 L 195 290 L 160 290 z M 205 290 L 205 325 L 240 325 L 240 290 L 205 290 z M 250 290 L 250 325 L 285 325 L 285 290 L 250 290 z "
+         style="fill:#a676b3;fill-opacity:1;fill-rule:evenodd;stroke:none;opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3444"
+         y="3069.8716"
+         x="62.5975"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:65px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:STHeiti;-inkscape-font-specification:STHeiti"
+           y="3069.8716"
+           x="62.5975"
+           id="tspan3446"
+           sodipodi:role="line"><tspan
+   id="tspan3448"
+   style="letter-spacing:5px">就诊日</tspan>程</tspan></text>
+    </g>
+  </g>
+</svg>
