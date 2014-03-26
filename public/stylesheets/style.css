@@ -57,7 +57,7 @@ footer .col:nth-child(3).active { background-image: url(/images/compass-active.s
 }
 
 .col .text { position: absolute; width:100%; bottom: 10%; text-align: center; }
-.col .text span { letter-spacing: 0; }
+.col .text .textend { letter-spacing: 0; }
 
 header .col, footer .col, .menu .col {
 	background-repeat: no-repeat;
