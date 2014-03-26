@@ -25,13 +25,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.9064516"
-     inkscape:cx="-8.8324881"
+     inkscape:cx="-92.495771"
      inkscape:cy="195"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:window-width="1440"
-     inkscape:window-height="809"
+     inkscape:window-height="782"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -63,32 +63,14 @@
      id="layer1"
      transform="translate(0,-652.36218)">
     <g
-       id="g3044">
-      <g
-         transform="translate(0,-30)"
-         id="g3067"
-         style="fill:#aaaaaa;fill-opacity:1">
-        <path
-           style="fill:#aaaaaa;fill-opacity:1;stroke:none"
-           d="m 100,732.36218 -95,95 30,0 0,30 0,65 55,0 0,-40 20,0 0,40 55,0 0,-65 0,-30 30,0 -95,-95 z m 0,14.125 70.875,70.875 -15.875,0 0,95 -35,0 0,-40 -40,0 0,40 -35,0 0,-95 -15.875,0 70.875,-70.875 z m -5,45.875 0,25 -25,0 0,10 25,0 0,25 10,0 0,-25 25,0 0,-10 -25,0 0,-25 -10,0 z"
-           id="rect2987"
-           inkscape:connector-curvature="0" />
-      </g>
-      <text
-         sodipodi:linespacing="125%"
-         id="text3041"
-         y="1004.2422"
-         x="25.245001"
-         style="font-size:70px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:10px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#aaaaaa;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-         xml:space="preserve"><tspan
-           dx="0 0"
-           y="1004.2422"
-           x="25.245001"
-           style="font-size:70px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:10px;word-spacing:0px;fill:#aaaaaa;fill-opacity:1;font-family:STHeiti;-inkscape-font-specification:STHeiti"
-           id="tspan3045"
-           sodipodi:role="line">首<tspan
-   id="tspan3063"
-   style="font-size:70px;letter-spacing:0px;fill:#aaaaaa;fill-opacity:1">页</tspan></tspan></text>
+       style="fill:#aaaaaa;fill-opacity:1"
+       id="g3067"
+       transform="translate(0,-30)">
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2987"
+         d="m 100,732.36218 -95,95 30,0 0,30 0,65 55,0 0,-40 20,0 0,40 55,0 0,-65 0,-30 30,0 -95,-95 z m 0,14.125 70.875,70.875 -15.875,0 0,95 -35,0 0,-40 -40,0 0,40 -35,0 0,-95 -15.875,0 70.875,-70.875 z m -5,45.875 0,25 -25,0 0,10 25,0 0,25 10,0 0,-25 25,0 0,-10 -25,0 0,-25 -10,0 z"
+         style="fill:#aaaaaa;fill-opacity:1;stroke:none" />
     </g>
   </g>
 </svg>

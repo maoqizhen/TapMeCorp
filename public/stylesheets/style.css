@@ -27,17 +27,21 @@ header { top: 0; }
 footer {
 	bottom: 0;
 	height: 12%;
+	color: #aaa;
+	font-size: 0.6em;
+	letter-spacing: 0.3em;
 }
+footer .col.active .text { color: #eee; }
 header .col { float:right; width: 18%; }
 
-header .col:first-child { background-image: url(/images/question.png); }
-header .col:first-child:hover { background-image: url(/images/question-active.png); }
-footer .col:first-child { background-image: url(/images/home.png); }
-footer .col:nth-child(2) { background-image: url(/images/surround.png); }
-footer .col:nth-child(3) { background-image: url(/images/compass.png); }
-footer .col:first-child.active { background-image: url(/images/home-active.png); }
-footer .col:nth-child(2).active { background-image: url(/images/surround-active.png); }
-footer .col:nth-child(3).active { background-image: url(/images/compass-active.png); }
+header .col:first-child { background-image: url(/images/question.svg); }
+header .col:first-child:hover { background-image: url(/images/question-active.svg); }
+footer .col:first-child { background-image: url(/images/home.svg); }
+footer .col:nth-child(2) { background-image: url(/images/surround.svg); }
+footer .col:nth-child(3) { background-image: url(/images/compass.svg); }
+footer .col:first-child.active { background-image: url(/images/home-active.svg); }
+footer .col:nth-child(2).active { background-image: url(/images/surround-active.svg); }
+footer .col:nth-child(3).active { background-image: url(/images/compass-active.svg); }
 
 /* GRID */
 
@@ -51,6 +55,10 @@ footer .col:nth-child(3).active { background-image: url(/images/compass-active.p
 	float: left;
 	height: 100%;
 }
+
+.col .text { position: absolute; width:100%; bottom: 10%; text-align: center; }
+.col .text span { letter-spacing: 0; }
+
 header .col, footer .col, .menu .col {
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -106,7 +114,7 @@ footer .col { width: 33.33%; }
 	width: 100%;
 	height: 43%;
 }
-.menu .col { width: 33.3333%; }
+.menu .col { width: 33.3333%; font-size: 0.7em; letter-spacing: 0.2em; color: #333; }
 .menu .col:before { content:''; width: 100%; top: 10%; height: 80%; border-right: 1px solid #ccc; position: absolute; }
 .menu .col:after { content:''; width: 80%; left: 10%; height: 100%; border-bottom: 1px solid #ccc; position: absolute; }
 .menu .col:last-child:before { border-right: none; }
@@ -119,3 +127,22 @@ footer .col { width: 33.33%; }
 .menu .row:first-child .col:nth-child(3) { background-image: url(/images/calendar.svg); }
 .menu .row:first-child .col:nth-child(3):hover { background-image: url(/images/calendar-active.svg); }
 
+@media only screen and (min-width: 41px) and (min-height: 65px) { html,body { font-size: 4px; } }
+@media only screen and (min-width: 81px) and (min-height: 129px) { html,body { font-size: 6px; } }
+@media only screen and (min-width: 121px) and (min-height: 193px) { html,body { font-size: 8px; } }
+@media only screen and (min-width: 161px) and (min-height: 257px) { html,body { font-size: 10px; } }
+@media only screen and (min-width: 201px) and (min-height: 321px) { html,body { font-size: 12px; } }
+@media only screen and (min-width: 241px) and (min-height: 385px) { html,body { font-size: 14px; } }
+@media only screen and (min-width: 281px) and (min-height: 449px) { html,body { font-size: 16px; } }
+@media only screen and (min-width: 321px) and (min-height: 513px) { html,body { font-size: 18px; } }
+@media only screen and (min-width: 361px) and (min-height: 577px) { html,body { font-size: 20px; } }
+@media only screen and (min-width: 401px) and (min-height: 641px) { html,body { font-size: 22px; } }
+@media only screen and (min-width: 441px) and (min-height: 705px) { html,body { font-size: 24px; } }
+@media only screen and (min-width: 481px) and (min-height: 769px) { html,body { font-size: 26px; } }
+@media only screen and (min-width: 521px) and (min-height: 833px) { html,body { font-size: 28px; } }
+@media only screen and (min-width: 561px) and (min-height: 897px) { html,body { font-size: 30px; } }
+
+@font-face {
+	font-family: 'STXihei';
+	src: url('/fonts/STXihei.ttf') format('truetype')
+}

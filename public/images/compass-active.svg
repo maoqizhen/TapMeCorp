@@ -60,7 +60,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -69,28 +69,10 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-652.36218)">
-    <g
-       id="g6759">
-      <path
-         inkscape:connector-curvature="0"
-         id="path4684"
-         d="m 32.824857,730.18707 c -37.0998116,37.09979 -37.0998071,97.25051 0,134.35026 37.099803,37.0998 97.250493,37.0998 134.350283,0 37.0998,-37.09978 37.0998,-97.25049 0,-134.35026 -37.0998,-37.09982 -97.250476,-37.09981 -134.350283,0 z m 56.568542,56.56854 70.710681,-49.49748 -49.49748,70.71068 -70.710675,49.49752 49.497474,-70.71072 z m 3.535534,3.53553 c -3.905247,3.90525 -3.905247,10.2369 0,14.14214 3.905243,3.90524 10.236897,3.90526 14.142137,0 3.90524,-3.90522 3.90525,-10.23693 0,-14.14214 -3.90524,-3.90528 -10.236885,-3.90525 -14.142137,0 z"
-         style="fill:#ff8600;fill-opacity:1;stroke:none" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text3041"
-         y="1005.4322"
-         x="24.019995"
-         style="font-size:70px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:30px;word-spacing:10px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-         xml:space="preserve"><tspan
-           dx="0 0"
-           y="1005.4322"
-           x="24.019995"
-           style="font-size:70px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:10px;word-spacing:0px;fill:#ffffff;fill-opacity:1;font-family:STHeiti;-inkscape-font-specification:STHeiti"
-           id="tspan3045"
-           sodipodi:role="line">导<tspan
-   id="tspan3398"
-   style="letter-spacing:0px;fill:#ffffff;fill-opacity:1">航</tspan></tspan></text>
-    </g>
+    <path
+       style="fill:#ff8600;fill-opacity:1;stroke:none"
+       d="m 32.824857,730.18707 c -37.0998116,37.09979 -37.0998071,97.25051 0,134.35026 37.099803,37.0998 97.250493,37.0998 134.350283,0 37.0998,-37.09978 37.0998,-97.25049 0,-134.35026 -37.0998,-37.09982 -97.250476,-37.09981 -134.350283,0 z m 56.568542,56.56854 70.710681,-49.49748 -49.49748,70.71068 -70.710675,49.49752 49.497474,-70.71072 z m 3.535534,3.53553 c -3.905247,3.90525 -3.905247,10.2369 0,14.14214 3.905243,3.90524 10.236897,3.90526 14.142137,0 3.90524,-3.90522 3.90525,-10.23693 0,-14.14214 -3.90524,-3.90528 -10.236885,-3.90525 -14.142137,0 z"
+       id="path4684"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

@@ -26,12 +26,12 @@
      inkscape:pageshadow="2"
      inkscape:zoom="2"
      inkscape:cx="119.79061"
-     inkscape:cy="360.33241"
+     inkscape:cy="160.33241"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:window-width="1440"
-     inkscape:window-height="809"
+     inkscape:window-height="784"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1">
@@ -60,27 +60,10 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-2557.0866)">
-    <g
-       id="g3051">
-      <path
-         id="path3097"
-         transform="translate(0,2557.0866)"
-         d="M 60 90 C 54.46 90 50 94.46 50 100 L 50 380 C 50 385.54 54.46 390 60 390 L 340 390 C 345.54 390 350 385.54 350 380 L 350 100 C 350 94.46 345.54 90 340 90 L 60 90 z M 150 145 L 160 145 L 160 196.34375 C 162.99494 198.07125 165 201.2941 165 205 C 165 210.5228 160.52285 215 155 215 C 149.47715 215 145 210.5228 145 205 C 145 201.2941 147.00506 198.07125 150 196.34375 L 150 145 z M 240 145 L 250 145 L 250 196.34375 C 252.99494 198.07125 255 201.2941 255 205 C 255 210.5228 250.52285 215 245 215 C 239.47715 215 235 210.5228 235 205 C 235 201.2941 237.00506 198.07125 240 196.34375 L 240 145 z M 105 165 L 140 165 L 140 175 L 115 175 L 115 235 L 285 235 L 285 175 L 260 175 L 260 165 L 295 165 L 295 335 L 105 335 L 105 165 z M 170 165 L 230 165 L 230 175 L 170 175 L 170 165 z M 115 245 L 115 280 L 150 280 L 150 245 L 115 245 z M 160 245 L 160 280 L 195 280 L 195 245 L 160 245 z M 205 245 L 205 280 L 240 280 L 240 245 L 205 245 z M 250 245 L 250 280 L 285 280 L 285 245 L 250 245 z M 115 290 L 115 325 L 150 325 L 150 290 L 115 290 z M 160 290 L 160 325 L 195 325 L 195 290 L 160 290 z M 205 290 L 205 325 L 240 325 L 240 290 L 205 290 z M 250 290 L 250 325 L 285 325 L 285 290 L 250 290 z "
-         style="fill:#a676b3;fill-opacity:1;fill-rule:evenodd;stroke:none;opacity:1" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text3444"
-         y="3069.8716"
-         x="62.5975"
-         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"><tspan
-           style="font-size:65px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:STHeiti;-inkscape-font-specification:STHeiti"
-           y="3069.8716"
-           x="62.5975"
-           id="tspan3446"
-           sodipodi:role="line"><tspan
-   id="tspan3448"
-   style="letter-spacing:5px">就诊日</tspan>程</tspan></text>
-    </g>
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#a676b3;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 60,2647.0866 c -5.54,0 -10,4.46 -10,10 l 0,280 c 0,5.54 4.46,10 10,10 l 280,0 c 5.54,0 10,-4.46 10,-10 l 0,-280 c 0,-5.54 -4.46,-10 -10,-10 l -280,0 z m 90,55 10,0 0,51.3438 c 2.99494,1.7275 5,4.9503 5,8.6562 0,5.5228 -4.47715,10 -10,10 -5.52285,0 -10,-4.4772 -10,-10 0,-3.7059 2.00506,-6.9287 5,-8.6562 l 0,-51.3438 z m 90,0 10,0 0,51.3438 c 2.99494,1.7275 5,4.9503 5,8.6562 0,5.5228 -4.47715,10 -10,10 -5.52285,0 -10,-4.4772 -10,-10 0,-3.7059 2.00506,-6.9287 5,-8.6562 l 0,-51.3438 z m -135,20 35,0 0,10 -25,0 0,60 170,0 0,-60 -25,0 0,-10 35,0 0,170 -190,0 0,-170 z m 65,0 60,0 0,10 -60,0 0,-10 z m -55,80 0,35 35,0 0,-35 -35,0 z m 45,0 0,35 35,0 0,-35 -35,0 z m 45,0 0,35 35,0 0,-35 -35,0 z m 45,0 0,35 35,0 0,-35 -35,0 z m -135,45 0,35 35,0 0,-35 -35,0 z m 45,0 0,35 35,0 0,-35 -35,0 z m 45,0 0,35 35,0 0,-35 -35,0 z m 45,0 0,35 35,0 0,-35 -35,0 z"
+       id="path3097" />
   </g>
 </svg>
